@@ -17,7 +17,7 @@ public class TestDaos {
     public static void main(String[] args) {
         
         AlumnoDao alumnoDao = new AlumnoDao();
-        System.out.println("Alumnos: ");
+        System.out.println("Alumnos:");
         imprimir(alumnoDao.listar());
         
         System.out.println("Domicilio: ");
